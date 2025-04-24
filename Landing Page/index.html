@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saurav Ambhore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">Saurav Ambhore</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="toggle-btn">Toggle Mode</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Saurav</h2>
+    <p>A passionate developer crafting clean and creative web experiences</p>
+    <a href="#projects" class="btn">Explore My Work</a>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a curious and motivated student with a passion for building beautiful and functional websites. From UI design to clean code, I enjoy bringing ideas to life in the browser. I love working on projects that challenge me to learn new technologies, and I'm constantly exploring modern development trends. My goal is to contribute to real-world solutions while growing as a developer and creative thinker.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <ul>
+        <li>
+          <strong>Calculator App:</strong>
+          A responsive calculator built using HTML, CSS Grid, and JavaScript. It supports basic arithmetic operations with real-time input updates and clean animations.
+        </li>
+        <li>
+          <strong>Landing Page:</strong>
+          A creative and professional landing page designed with HTML and CSS, featuring responsive sections, stylish layout, and modern animations.
+        </li>
+        <li>
+          <strong>RC Motor Car:</strong>
+          A lightweight, remote-controlled car with smooth directional control using DC motors and wireless operation with the help of Arduino.
+        </li>
+        <li>
+          <strong>Portfolio Website:</strong>
+          A personal portfolio site showcasing my journey, skills, and projects with a clean UI, interactive sections, and mobile-first design.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="socials">
+        <a href="https://instagram.com/saurav__xd" target="_blank">@saurav__xd</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © 2025 Saurav Ambhore. All rights reserved.
+  </footer>
+
+  <script>
+    const toggle = document.querySelector(".toggle-btn");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+</body>
+</html>
